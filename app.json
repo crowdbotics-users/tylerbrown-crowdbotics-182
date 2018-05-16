@@ -1,0 +1,16 @@
+
+{
+  "name": "tylerbrown-crowdbotics-182",
+  "description": "This is repository for web app developed with django, built with Crowdbotics. https://crowdbotics.com and with features ",
+  "repository": "https://github.com/crowdbotics-users/tylerbrown-crowdbotics-182",
+  "keywords": ['web'],
+  "env": {
+    "DEBUG_COLLECTSTATIC": "1" 
+  },
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "scripts": {
+    "postdeploy": "./postdeploy.sh"
+  }
+}
